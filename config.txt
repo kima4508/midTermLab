@@ -1,9 +1,19 @@
 {
      "R1": {
+          "FastEthernet0/1": "down/down",
           "FastEthernet1/0": "up/up",
+          "FastEthernet0/0": "down/down",
           "GigabitEthernet2/0": "down/down",
           "address": {
-               "FastEthernet0/1": {
+               "FastEthernet0/0": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
+               },
+               "GigabitEthernet2/0": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
+               },
+               "FastEthernet1/1": {
                     "v4": "unassigned",
                     "v6": "unassigned"
                },
@@ -11,115 +21,28 @@
                     "v4": "198.51.102.254/24",
                     "v6": "2001:aaaa:aaaa:aaaa:00:00:00:01/64"
                },
-               "FastEthernet1/1": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               },
-               "GigabitEthernet2/0": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               },
-               "FastEthernet0/0": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               }
-          },
-          "FastEthernet0/1": "down/down",
-          "FastEthernet1/1": "down/down",
-          "FastEthernet0/0": "down/down"
-     },
-     "R5": {
-          "FastEthernet1/0": "down/down",
-          "GigabitEthernet2/0": "down/down",
-          "address": {
                "FastEthernet0/1": {
                     "v4": "unassigned",
                     "v6": "unassigned"
-               },
-               "FastEthernet1/0": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               },
-               "FastEthernet1/1": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               },
-               "GigabitEthernet2/0": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               },
-               "FastEthernet0/0": {
-                    "v4": "198.51.101.254/24",
-                    "v6": "2001:cafe:00:00:c805:41ff:fecb:08/64"
                }
           },
-          "FastEthernet0/1": "down/down",
-          "FastEthernet1/1": "down/down",
-          "FastEthernet0/0": "up/up"
-     },
-     "R4": {
-          "FastEthernet1/0": "up/up",
-          "GigabitEthernet2/0": "down/down",
-          "address": {
-               "FastEthernet0/1": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               },
-               "FastEthernet1/0": {
-                    "v4": "198.51.100.1/24",
-                    "v6": "2001:face:00:00:c804:29ff:fee5:1c/64"
-               },
-               "FastEthernet1/1": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               },
-               "GigabitEthernet2/0": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               },
-               "FastEthernet0/0": {
-                    "v4": "198.51.101.1/24",
-                    "v6": "2001:cafe:00:00:c804:29ff:fee5:08/64"
-               }
-          },
-          "FastEthernet0/1": "down/down",
-          "FastEthernet1/1": "down/down",
-          "FastEthernet0/0": "up/up"
-     },
-     "R3": {
-          "FastEthernet1/0": "up/up",
-          "GigabitEthernet2/0": "down/down",
-          "address": {
-               "FastEthernet0/1": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               },
-               "FastEthernet1/0": {
-                    "v4": "198.51.102.2/24",
-                    "v6": "2001:aaaa:aaaa:aaaa:c803:41ff:fead:1c/64"
-               },
-               "FastEthernet1/1": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               },
-               "GigabitEthernet2/0": {
-                    "v4": "unassigned",
-                    "v6": "unassigned"
-               },
-               "FastEthernet0/0": {
-                    "v4": "198.51.101.3/24",
-                    "v6": "2001:cafe:00:00:c803:41ff:fead:08/64"
-               }
-          },
-          "FastEthernet0/1": "down/down",
-          "FastEthernet1/1": "down/down",
-          "FastEthernet0/0": "up/up"
+          "FastEthernet1/1": "down/down"
      },
      "R2": {
+          "FastEthernet0/1": "down/down",
           "FastEthernet1/0": "up/up",
+          "FastEthernet0/0": "up/up",
           "GigabitEthernet2/0": "down/down",
           "address": {
-               "FastEthernet0/1": {
+               "FastEthernet0/0": {
+                    "v4": "198.51.101.2/24",
+                    "v6": "2001:cafe:00:00:c802:41ff:fe9c:08/64"
+               },
+               "GigabitEthernet2/0": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
+               },
+               "FastEthernet1/1": {
                     "v4": "unassigned",
                     "v6": "unassigned"
                },
@@ -127,21 +50,98 @@
                     "v4": "198.51.102.1/24",
                     "v6": "2001:aaaa:aaaa:aaaa:c802:41ff:fe9c:1c/64"
                },
-               "FastEthernet1/1": {
+               "FastEthernet0/1": {
                     "v4": "unassigned",
                     "v6": "unassigned"
+               }
+          },
+          "FastEthernet1/1": "down/down"
+     },
+     "R4": {
+          "FastEthernet0/1": "down/down",
+          "FastEthernet1/0": "up/up",
+          "FastEthernet0/0": "up/up",
+          "GigabitEthernet2/0": "down/down",
+          "address": {
+               "FastEthernet0/0": {
+                    "v4": "198.51.101.1/24",
+                    "v6": "2001:cafe:00:00:c804:29ff:fee5:08/64"
                },
                "GigabitEthernet2/0": {
                     "v4": "unassigned",
                     "v6": "unassigned"
                },
-               "FastEthernet0/0": {
-                    "v4": "198.51.101.2/24",
-                    "v6": "2001:cafe:00:00:c802:41ff:fe9c:08/64"
+               "FastEthernet1/1": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
+               },
+               "FastEthernet1/0": {
+                    "v4": "198.51.100.1/24",
+                    "v6": "2001:face:00:00:c804:29ff:fee5:1c/64"
+               },
+               "FastEthernet0/1": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
                }
           },
+          "FastEthernet1/1": "down/down"
+     },
+     "R3": {
           "FastEthernet0/1": "down/down",
-          "FastEthernet1/1": "down/down",
-          "FastEthernet0/0": "up/up"
+          "FastEthernet1/0": "up/up",
+          "FastEthernet0/0": "up/up",
+          "GigabitEthernet2/0": "down/down",
+          "address": {
+               "FastEthernet0/0": {
+                    "v4": "198.51.101.3/24",
+                    "v6": "2001:cafe:00:00:c803:41ff:fead:08/64"
+               },
+               "GigabitEthernet2/0": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
+               },
+               "FastEthernet1/1": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
+               },
+               "FastEthernet1/0": {
+                    "v4": "198.51.102.2/24",
+                    "v6": "2001:aaaa:aaaa:aaaa:c803:41ff:fead:1c/64"
+               },
+               "FastEthernet0/1": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
+               }
+          },
+          "FastEthernet1/1": "down/down"
+     },
+     "R5": {
+          "FastEthernet0/1": "down/down",
+          "FastEthernet1/0": "down/down",
+          "FastEthernet0/0": "up/up",
+          "GigabitEthernet2/0": "down/down",
+          "address": {
+               "FastEthernet0/0": {
+                    "v4": "198.51.101.254/24",
+                    "v6": "2001:cafe:00:00:c805:41ff:fecb:08/64"
+               },
+               "GigabitEthernet2/0": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
+               },
+               "FastEthernet1/1": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
+               },
+               "FastEthernet1/0": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
+               },
+               "FastEthernet0/1": {
+                    "v4": "unassigned",
+                    "v6": "unassigned"
+               }
+          },
+          "FastEthernet1/1": "down/down"
      }
 }
